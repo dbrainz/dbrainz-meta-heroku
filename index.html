@@ -1,4 +1,9 @@
 <h1>DBrainz's File Metadata Microservice</h1>
+<p>Returns a JSON object containing the file name and the file size in bytes.</p>
+<p>Return format: <br>
+{"filename" : <i>filename</i>,<br>
+"size" : <i>file size in bytes</i>}</p>
+
 <form action="https://dbrainz-meta.herokuapp.com/" enctype="multipart/form-data" method="post">
     <div>
         Choose a file to upload: <input type="file" name="uploadfile" size=30>     
